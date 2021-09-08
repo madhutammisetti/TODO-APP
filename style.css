@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(245, 221, 177);
+}
+#input-header{
+    text-align: center;
+    
+}
+#todoform{
+    text-align: center;
+}
+.todomessage{
+    margin: 0px;
+ 
+}
+#card-section{
+    width:100%;
+    max-width: 600px;
+    margin: 0px auto;
+}
+.card{
+    background-color: #fff;
+
+    padding:4px;
+    border-radius: 5px;
+   
+    padding: 24px;
+    font-size: 24px;
+   margin:10px;
+}
+.fas{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.fas:last-of-type{
+    margin-right: 0px;
+}
+#inputtext {
+    font-size: 30px;
+    padding: 5px;
+}
+#submitbtn{
+    font-size: 30px;
+    padding: 5px;
+    
+}
+.todoWrapper ,.editInput{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.editInput{
+    display: none;
+}
